@@ -25,9 +25,9 @@ specification including modules, asynchronous generators, proxies and BigInt.
 > - Small built-in standard library with C library wrappers.
 
 - [txiki.js](https://github.com/saghul/txiki.js)
-> txiki.js is a small and powerful JavaScript runtime. It targets stae-of-the-art ECMAScript and implements many web platform features.
+> txiki.js is a small and powerful JavaScript runtime. It targets state-of-the-art ECMAScript and implements many web platform features.
 >
-> It's built on the shoulders of giants: it uses [QuickJS-ng] as its JavaScript engine and [libuv](https://libuv.org/) as the platform layer.
+> It's built on the shoulders of giants: it uses [QuickJS-ng](https://github.com/quickjs-ng/quickjs) as its JavaScript engine and [libuv](https://libuv.org/) as the platform layer.
 - [Bun](https://github.com/oven-sh/bun)
 > Bun is an all-in-one toolkit for JavaScript and TypeScript apps. It ships as a single executable called `bun`.
 >
