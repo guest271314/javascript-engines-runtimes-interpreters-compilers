@@ -195,3 +195,9 @@ imported from C/C++ firmware, and JS code simply orchestrates things. That leave
 - [njs](https://nginx.org/en/docs/njs/)
 >
 > njs is a subset of the JavaScript language that allows extending nginx functionality. njs is created in compliance with [ECMAScript 5.1](http://www.ecma-international.org/ecma-262/5.1/) (strict mode) with some [ECMAScript 6](http://www.ecma-international.org/ecma-262/6.0/) and later extensions. The compliance is still [evolving](https://nginx.org/en/docs/njs/compatibility.html).
+> 
+- [J2v8](https://github.com/eclipsesource/J2V8#j2v8)
+>
+> J2V8 is a set of Java bindings for V8. J2V8 focuses on performance and tight integration with V8. It also takes a 'primitive first' approach, meaning that if a value can be accessed as a primitive, then it should be. This forces a more static type system between the JS and Java code, but it also improves the performance since intermediate Objects are not created.
+>
+> We developed J2V8 as a high performance engine for our multi-platform mobile toolkit [tabris.js](https://tabrisjs.com/) and it is a great choice for executing JavaScript on Android devices.
