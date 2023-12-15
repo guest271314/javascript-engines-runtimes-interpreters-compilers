@@ -192,3 +192,6 @@ imported from C/C++ firmware, and JS code simply orchestrates things. That leave
 - [Espruino](https://github.com/espruino/Espruino)
 > 
 > Espruino is a JavaScript interpreter for microcontrollers. It is designed for devices with as little as 128kB Flash and 8kB RAM.
+- [njs](https://nginx.org/en/docs/njs/)
+>
+> njs is a subset of the JavaScript language that allows extending nginx functionality. njs is created in compliance with [ECMAScript 5.1](http://www.ecma-international.org/ecma-262/5.1/) (strict mode) with some [ECMAScript 6](http://www.ecma-international.org/ecma-262/6.0/) and later extensions. The compliance is still [evolving](https://nginx.org/en/docs/njs/compatibility.html).
