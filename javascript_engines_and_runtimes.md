@@ -197,6 +197,7 @@ imported from C/C++ firmware, and JS code simply orchestrates things. That leave
 > njs is a subset of the JavaScript language that allows extending nginx functionality. njs is created in compliance with [ECMAScript 5.1](http://www.ecma-international.org/ecma-262/5.1/) (strict mode) with some [ECMAScript 6](http://www.ecma-international.org/ecma-262/6.0/) and later extensions. The compliance is still [evolving](https://nginx.org/en/docs/njs/compatibility.html).
 > 
 - [J2v8](https://github.com/eclipsesource/J2V8#j2v8)
+>
 > J2V8 is a set of Java bindings for V8. J2V8 focuses on performance and tight integration with V8. It also takes a 'primitive first' approach, meaning that if a value can be accessed as a primitive, then it should be. This forces a more static type system between the JS and Java code, but it also improves the performance since intermediate Objects are not created.
 >
 > We developed J2V8 as a high performance engine for our multi-platform mobile toolkit [tabris.js](https://tabrisjs.com/) and it is a great choice for executing JavaScript on Android devices.
@@ -205,3 +206,27 @@ imported from C/C++ firmware, and JS code simply orchestrates things. That leave
 > Spiderfire is a Javascript runtime built with Mozilla's SpiderMonkey engine.
 >
 > Spiderfire aims to disrupt the server-side Javascript runtime environment.
+- [besen](https://github.com/BeRo1985/besen)
+> 
+> BESEN is an acronym for "B ero's E cma S cript E ngine", and it is a complete ECMAScript Fifth Edition Implemention in Object Pascal, which is compilable with Delphi >=7 and Free Pascal >= 2.5.1 (maybe also 2.4.1).
+>
+> BESEN is licensed under the LGPL v2.1 with static-linking-exception.
+> 
+> Features
+> 
+> - Complete implementation of the ECMAScript Fifth Edition standard
+> - Own bytecode-based ECMA262-complaint Regular Expression Engine
+> - Incremental praise/exact mark-and-sweep garbage collector
+> - Unicode UTF8/UCS2/UTF16/UCS4/UTF32 support (on ECMAScript level, UCS2/UTF16)
+> - Compatibility modes, for example also a facile Javascript compatibility mode
+> - Bytecode compiler
+> - Call-Subroutine-Threaded Register-based virtual machine
+> - Context-Threaded 32-bit x86 and 64-bit x64/AMD64 Just-in-Time Compiler (a ARMv7 EABI JIT for ARM CPUs with VFPv3 instruction set is planned)
+> - Constant folding
+> - Dead code elimination
+> - Abstract-Syntax-Tree based optimizations
+> - Type inference (both exact and speculative)
+> - Polymorphic Inline Cache based on object structure and property key IDs
+> - Perfomance optimized hash maps
+> - Self balanced trees (for example to sort on-the-fly linked list items of hash maps for very fast enumeration of array objects)
+> - Easy native Object Pascal class integration (properties per RTTI and published methods per by-hand-parsing of the native virtual method table)
