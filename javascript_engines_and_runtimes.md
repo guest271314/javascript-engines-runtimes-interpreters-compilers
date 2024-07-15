@@ -230,3 +230,8 @@ imported from C/C++ firmware, and JS code simply orchestrates things. That leave
 > - Perfomance optimized hash maps
 > - Self balanced trees (for example to sort on-the-fly linked list items of hash maps for very fast enumeration of array objects)
 > - Easy native Object Pascal class integration (properties per RTTI and published methods per by-hand-parsing of the native virtual method table)
+- [LibJS](https://github.com/SerenityOS/serenity/blob/master/Base/usr/share/man/man1/js.md)
+>
+> `js` evaluates JavaScript programs using the LibJS engine. If you pass it a path to a script file, it will execute that script. Otherwise, it enters the Read-Eval-Print-Loop (REPL) mode, where it interactively reads pieces (usually, single lines) of code from standard input, evaluates them in one shared interpreter context, and prints back their results. This mode is useful for quickly experimenting with LibJS.
+>
+> Run `help()` in REPL mode to see its available built-in functions.
