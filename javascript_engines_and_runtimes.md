@@ -235,3 +235,12 @@ imported from C/C++ firmware, and JS code simply orchestrates things. That leave
 > `js` evaluates JavaScript programs using the LibJS engine. If you pass it a path to a script file, it will execute that script. Otherwise, it enters the Read-Eval-Print-Loop (REPL) mode, where it interactively reads pieces (usually, single lines) of code from standard input, evaluates them in one shared interpreter context, and prints back their results. This mode is useful for quickly experimenting with LibJS.
 >
 > Run `help()` in REPL mode to see its available built-in functions.
+- [llrt](https://github.com/awslabs/llrt)
+>
+> LLRT (Low Latency Runtime) is a lightweight JavaScript runtime designed to address the growing demand for fast and efficient Serverless applications. LLRT offers up to over 10x faster startup and up to 2x overall lower cost compared to other JavaScript runtimes running on AWS Lambda
+>
+> It's built in Rust, utilizing QuickJS as JavaScript engine, ensuring efficient memory usage and swift startup.
+>
+> Warning
+>
+> LLRT is an experimental package. It is subject to change and intended only for evaluation purposes.
