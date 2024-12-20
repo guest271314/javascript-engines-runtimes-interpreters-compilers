@@ -253,3 +253,9 @@ imported from C/C++ firmware, and JS code simply orchestrates things. That leave
 > WinterJS is powered by [SpiderMonkey](https://spidermonkey.dev/), [Spiderfire](https://github.com/Redfire75369/spiderfire) and [hyper](https://hyper.rs/) to bring a new level of awesomeness to your Javascript apps.
 >
 > WinterJS is using the [WASIX](https://wasix.org/) standard to compile to WebAssembly. Please note that compiling to WASIX is currently a complex process. We recommend using precompiled versions from [wasmer/winterjs](https://wasmer.io/wasmer/winterjs), but please open an issue if you need to compile to WASIX locally.
+- [QuickJS-NG](https://github.com/quickjs-ng/quickjs)
+>
+> Overview
+> QuickJS is a small and embeddable JavaScript engine. It aims to support the latest [ECMAScript](https://tc39.es/ecma262/) specification.
+>
+> This project is a *fork* of the [original QuickJS](https://bellard.org/quickjs) project by Fabrice Bellard and Charlie Gordon, after it went dormant, with the intent of reigniting its development.
