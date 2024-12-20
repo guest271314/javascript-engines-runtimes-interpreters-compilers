@@ -244,3 +244,12 @@ imported from C/C++ firmware, and JS code simply orchestrates things. That leave
 > Warning
 >
 > LLRT is an experimental package. It is subject to change and intended only for evaluation purposes.
+- [winterjs](https://github.com/wasmerio/winterjs)
+>
+> WinterJS is blazing-fast JavaScript server that runs Service Workers scripts according to the [Winter Community Group specification](https://wintercg.org/).
+>
+> How WinterJS works
+> 
+> WinterJS is powered by [SpiderMonkey](https://spidermonkey.dev/), [Spiderfire](https://github.com/Redfire75369/spiderfire) and [hyper](https://hyper.rs/) to bring a new level of awesomeness to your Javascript apps.
+>
+> WinterJS is using the [WASIX](https://wasix.org/) standard to compile to WebAssembly. Please note that compiling to WASIX is currently a complex process. We recommend using precompiled versions from [wasmer/winterjs](https://wasmer.io/wasmer/winterjs), but please open an issue if you need to compile to WASIX locally.
