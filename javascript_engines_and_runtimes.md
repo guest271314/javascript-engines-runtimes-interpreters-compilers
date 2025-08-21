@@ -259,3 +259,6 @@ imported from C/C++ firmware, and JS code simply orchestrates things. That leave
 > QuickJS is a small and embeddable JavaScript engine. It aims to support the latest [ECMAScript](https://tc39.es/ecma262/) specification.
 >
 > This project is a *fork* of the [original QuickJS](https://bellard.org/quickjs) project by Fabrice Bellard and Charlie Gordon, after it went dormant, with the intent of reigniting its development.
+- [Escargot](https://github.com/Samsung/escargot)
+>
+> Escargot is a lightweight JavaScript engine developed by [Samsung](https://github.com/Samsung), designed specifically for resource-constrained environments. It is optimized for performance and low memory usage, making it ideal for use in embedded systems, IoT devices, and other applications where resources are limited.
