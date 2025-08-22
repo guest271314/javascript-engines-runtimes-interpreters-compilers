@@ -262,3 +262,16 @@ imported from C/C++ firmware, and JS code simply orchestrates things. That leave
 - [Escargot](https://github.com/Samsung/escargot)
 >
 > Escargot is a lightweight JavaScript engine developed by [Samsung](https://github.com/Samsung), designed specifically for resource-constrained environments. It is optimized for performance and low memory usage, making it ideal for use in embedded systems, IoT devices, and other applications where resources are limited.
+- [Sable](https://github.com/sableland/sable)
+> 
+> Sable is a web-standards focused Javascript runtime with as much tooling built-in as possible. It is meant to be both a learning project and a sort of spiritual sibling to Deno 1.x. Sable is very ambitious and has many goals, but one of the non-goals is support for node modules in any way (outside of transpilation by CDNs).
+>
+> Goals
+> - Support as many Web Standard API's as possible
+> - URL Imports
+> - Go fast
+>
+> Anti-Goals
+> - Native support of TypeScript/TSX/JSX (maybe will be possible in the future with service workers)
+> - Node/npm support IN ANY SHAPE OR FORM
+> - Support for `Deno.*` APIs outside of possible shims
