@@ -298,3 +298,35 @@ imported from C/C++ firmware, and JS code simply orchestrates things. That leave
 > The implementation style is similar to [LibJS](https://libjs.dev/) - the JS engine used in SerenityOS and the Ladybird browser which I worked on before - in various aspects, most notably the desire to stay very close to spec. Development is still at an early stage and the engine's usefulness thus limited. While there are various things that already work well, there's an equal amount of things that don't :^)
 >
 > Please refrain from filing issues for missing features - many are missing! Similarly, please get in touch before starting to work on something larger than a bug fix.
+- [Jint](https://github.com/sebastienros/jint)
+>
+> Jint is a Javascript interpreter for .NET which can run on any modern .NET platform as it supports .NET Standard 2.0 and .NET 4.6.2 targets (and later).
+>
+> Use cases and users
+> - Run JavaScript inside your .NET application in a safe sand-boxed environment
+> - Expose native .NET objects and functions to your JavaScript code (get database query results as JSON, call .NET methods, etc.)
+> - Support scripting in your .NET application, allowing users to customize your application using JavaScript (like Unity games)
+- [Goja](https://github.com/dop251/goja)
+>
+> ECMAScript 5.1(+) implementation in Go.
+>
+> Goja is an implementation of ECMAScript 5.1 in pure Go with emphasis on standard compliance and performance.
+>
+> This project was largely inspired by [otto](https://github.com/robertkrimen/otto).
+>
+> The minimum required Go version is 1.20.
+>
+> Features
+> - Full ECMAScript 5.1 support (including regex and strict mode).
+> - Passes nearly all tc39 tests for the features implemented so far. The goal is to pass all of them. See .tc39_test262_checkout.sh for the latest working commit id.
+> - Capable of running Babel, Typescript compiler and pretty much anything written in ES5.
+> - Sourcemaps.
+> - Most of ES6 functionality, still work in progress, see https://github.com/dop251/goja/milestone/1?closed=1
+- [otto](https://github.com/robertkrimen/otto)
+> 
+> Package otto is a JavaScript parser and interpreter written natively in Go.
+- [NILS.JS](https://github.com/nilproject/NiL.JS)
+>
+> JavaScript engine for .NET written in C#. 
+>
+> Open source ECMAScript 6.0 (ES2015) (JavaScript) engine. Licensed under BSD 3-Clause License.
