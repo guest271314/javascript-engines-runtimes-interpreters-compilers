@@ -330,3 +330,12 @@ imported from C/C++ firmware, and JS code simply orchestrates things. That leave
 > JavaScript engine for .NET written in C#. 
 >
 > Open source ECMAScript 6.0 (ES2015) (JavaScript) engine. Licensed under BSD 3-Clause License.
+- [mtjs](https://github.com/akakist/mtjs)
+>
+> MTJS JS Runtime is a high-performance JavaScript runtime for building server-side applications, delivering exceptional HTTP request processing speed and unique features like built-in routing and Telnet-based management. The project showcases JavaScript as a powerful tool for backend development, outperforming modern C++ solutions.
+>
+> Key Features
+> - High Performance: Handles up to 480k+ HTTP requests per second (based on dual-thread tests).
+> - RPC: Supports approximately 300k requests per second for message passing between nodes. Includes built-in routing with route memorization for backroute responses.
+> - Telnet Interface: Convenient server management inspired by Cisco routers, simplifying configuration and administration.
+> - Cross-Platform: Easily runs in Docker, enabling seamless integration and testing.
