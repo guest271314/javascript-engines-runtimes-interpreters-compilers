@@ -339,3 +339,8 @@ imported from C/C++ firmware, and JS code simply orchestrates things. That leave
 > - RPC: Supports approximately 300k requests per second for message passing between nodes. Includes built-in routing with route memorization for backroute responses.
 > - Telnet Interface: Convenient server management inspired by Cisco routers, simplifying configuration and administration.
 > - Cross-Platform: Easily runs in Docker, enabling seamless integration and testing.
+- [StarlingMonkey](https://github.com/bytecodealliance/StarlingMonkey)
+> 
+> StarlingMonkey is a [SpiderMonkey](https://spidermonkey.dev/) based JS runtime optimized for use in [WebAssembly Components](https://component-model.bytecodealliance.org/). StarlingMonkey's core builtins target WASI 0.2.0 to support a Component Model based event loop and standards-compliant implementations of key web builtins, including the fetch API, WHATWG Streams, text encoding, and others. To support tailoring for specific use cases, it's designed to be highly modular, and can be readily extended with custom builtins and host APIs.
+>
+> StarlingMonkey is used in production for Fastly's JS Compute platform, and Fermyon's Spin JS SDK. See the [ADOPTERS](https://github.com/bytecodealliance/StarlingMonkey/blob/main/ADOPTERS.md) file for more details.
