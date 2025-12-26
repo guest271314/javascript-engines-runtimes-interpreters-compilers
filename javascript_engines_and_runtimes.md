@@ -356,3 +356,6 @@ imported from C/C++ firmware, and JS code simply orchestrates things. That leave
 > MQuickJS only supports a [subset](https://github.com/bellard/mquickjs#javascript-subset-reference) of JavaScript close to ES5. It implements a stricter mode where some error prone or inefficient JavaScript constructs are forbidden.
 >
 > Although MQuickJS shares much code with QuickJS, it internals are different in order to consume less memory. In particular, it relies on a tracing garbage collector, the VM does not use the CPU stack and strings are stored in UTF-8.
+- [donejs](https://github.com/arturgawlik/donejs)
+> 
+> hobby attempt to implement V8 based JS runtime
