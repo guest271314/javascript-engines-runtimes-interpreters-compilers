@@ -346,6 +346,13 @@ imported from C/C++ firmware, and JS code simply orchestrates things. That leave
 > StarlingMonkey is used in production for Fastly's JS Compute platform, and Fermyon's Spin JS SDK. See the [ADOPTERS](https://github.com/bytecodealliance/StarlingMonkey/blob/main/ADOPTERS.md) file for more details.
 - [jsrt](https://github.com/popescun/jsrt)
 >
-> Java Script runtime environment based on V8 JS engine
+> Java Script runhttps://github.com/bellard/mquickjstime environment based on V8 JS engine
 >
 > This was one of my old pet projects to demonstrate that a simple alternative to the `node.js` `CommonJS` module system using `require` function is possible.
+- [MicroQuickJS](https://github.com/bellard/mquickjs)
+>
+> MicroQuickJS (aka. MQuickJS) is a JavaScript engine targetted at embedded systems. It compiles and runs JavaScript programs using as little as 10 kB of RAM. The whole engine requires about 100 kB of ROM (ARM Thumb-2 code) including the C library. The speed is comparable to QuickJS.
+>
+> MQuickJS only supports a [subset](https://github.com/bellard/mquickjs#javascript-subset-reference) of JavaScript close to ES5. It implements a stricter mode where some error prone or inefficient JavaScript constructs are forbidden.
+>
+> Although MQuickJS shares much code with QuickJS, it internals are different in order to consume less memory. In particular, it relies on a tracing garbage collector, the VM does not use the CPU stack and strings are stored in UTF-8.
