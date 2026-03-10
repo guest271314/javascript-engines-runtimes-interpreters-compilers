@@ -359,3 +359,7 @@ imported from C/C++ firmware, and JS code simply orchestrates things. That leave
 - [donejs](https://github.com/arturgawlik/donejs)
 > 
 > hobby attempt to implement V8 based JS runtime
+- [js](https://github.com/5hubham5ingh/js-util)
+>
+> A fast, lightweight (~3 MB RAM), battery-included JavaScript runner built on QuickJS exclusively for writing clean, interactive, declarative and readable scripts.
+
