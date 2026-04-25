@@ -362,4 +362,13 @@ imported from C/C++ firmware, and JS code simply orchestrates things. That leave
 - [js](https://github.com/5hubham5ingh/js-util)
 >
 > A fast, lightweight (~3 MB RAM), battery-included JavaScript runner built on QuickJS exclusively for writing clean, interactive, declarative and readable scripts.
-
+- [Edge.js](https://github.com/wasmerio/edgejs)
+>
+> Edge.js is a secure JavaScript runtime, designed for Edge computing and AI workloads.
+>
+> Edge.js uses WebAssembly for sandboxing when in --safe mode, so even the most insecure programs can run on it safely. Edge also is:
+>
+> - ✅ Fully compatible with Node.js.
+> - 🔒 Sandboxed by design.
+> - 🧩 Pluggable with any JS engine: V8, JavaScriptCore or QuickJS.
+> - 💪 Compatible with any package manager: NPM/PNPM/Yarn/Bun.
