@@ -372,3 +372,12 @@ imported from C/C++ firmware, and JS code simply orchestrates things. That leave
 > - 🔒 Sandboxed by design.
 > - 🧩 Pluggable with any JS engine: V8, JavaScriptCore or QuickJS.
 > - 💪 Compatible with any package manager: NPM/PNPM/Yarn/Bun.
+- [Jinter](https://github.com/LuanRT/Jinter)
+>
+> A tiny JavaScript interpreter written in TypeScript
+>
+> [Tests](https://github.com/LuanRT/Jinter/actions)
+>
+> Note: This project was originally developed for use in [YouTube.js](https://github.com/LuanRT/YouTube.js).
+
+
