@@ -59,7 +59,18 @@ specification including modules, asynchronous generators, proxies and BigInt.
 >
 > Join us in `#engine262:matrix.org`.
 - [graaljs](https://github.com/oracle/graaljs)
-
+> GraalJS is a JavaScript engine implemented in Java on top of GraalVM. It is an ECMAScript-compliant runtime to execute JavaScript and Node.js applications, and includes all the benefits from the GraalVM stack including interoperability with Java. GraalJS is an open-source project.
+> 
+> The goals of GraalJS are:
+>
+> - [Full compatibility with the latest ECMAScript specification](https://github.com/oracle/graaljs/blob/master/docs/user/JavaScriptCompatibility.md)
+> - [Interoperability with Java](https://github.com/oracle/graaljs/blob/master/docs/user/JavaInteroperability.md)
+> - Interoperability with WebAssembly using the JavaScript WebAssembly API
+> - Running JavaScript with the best possible performance
+> - Support for Node.js applications, including native packages
+> - Simple upgrading from applications based on [Nashorn](https://github.com/oracle/graaljs/blob/master/docs/user/NashornMigrationGuide.md) or [Rhino](https://github.com/oracle/graaljs/blob/master/docs/user/RhinoMigrationGuide.md)
+> - Embeddability in systems like [Oracle RDBMS](https://labs.oracle.com/pls/apex/f?p=LABS:project_details:0:15) or MySQL
+>
 - [Hermes](https://hermesengine.dev/)
 > JavaScript engine optimized for React Native
 - [Duktape](https://duktape.org/)
