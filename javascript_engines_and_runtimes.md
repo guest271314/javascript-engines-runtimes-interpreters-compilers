@@ -390,5 +390,8 @@ imported from C/C++ firmware, and JS code simply orchestrates things. That leave
 > [Tests](https://github.com/LuanRT/Jinter/actions)
 >
 > Note: This project was originally developed for use in [YouTube.js](https://github.com/LuanRT/YouTube.js).
+- [forge-runtime](https://github.com/varadTheDeveloper/forge-runtime)
+>
+> A JavaScript runtime powered by Mozilla SpiderMonkey.
 
 
