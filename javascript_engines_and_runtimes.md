@@ -392,6 +392,25 @@ imported from C/C++ firmware, and JS code simply orchestrates things. That leave
 > Note: This project was originally developed for use in [YouTube.js](https://github.com/LuanRT/YouTube.js).
 - [forge-runtime](https://github.com/varadTheDeveloper/forge-runtime)
 >
+- [porffor](https://github.com/CanadaHonk/porffor)
+> 
 > A JavaScript runtime powered by Mozilla SpiderMonkey.
-
-
+> 
+> Porffor is a 100% AOT compiled JS engine/runtime. There is nothing interpreted or compiled just-in-time. Porffor compiles JS to C (with an IR inbetween). We chose this approach because:
+>
+> - it can be used essentially everywhere
+> - is relatively easy to emit and compile
+> - it avoids directly depending on a backend like LLVM or Cranelift
+> is easily modifiable post-compile for diverse environments
+- [perry](https://github.com/PerryTS/perry)
+> 
+> Write TypeScript. Ship native. Everywhere.
+>
+> Perry compiles the TypeScript you already write into real machine-code executables — for macOS, Windows, Linux, iOS, Android, watchOS, and TV. No Node.js to install. No Electron to bundle. No runtime at all. Just a binary. (The same codebase can also target the web, emitted as JavaScript or WebAssembly.)
+- [scriptc](https://github.com/vercel-labs/scriptc)
+>
+> scriptc compiles TypeScript and JavaScript to typed IR, readable C, textual LLVM IR, native assembly and objects, native executables, and WebAssembly modules. It uses the TypeScript compiler for parsing and type checking. Source outputs require only Node. On macOS 15+ arm64, ordinary LLVM-tier executables use scriptc's bundled helper and precompiled runtime pack; clang is only the platform linker driver and does not compile program or runtime C.
+>
+> Static builds include a small native runtime, but no Node or JavaScript engine. Code that cannot compile statically is reported as a diagnostic. For npm packages and `any`-typed code, `--dynamic` embeds [quickjs-ng](https://github.com/quickjs-ng/quickjs) explicitly.
+>
+> scriptc is experimental and targets macOS, Linux, Windows, and WebAssembly via WASI Preview 1.
