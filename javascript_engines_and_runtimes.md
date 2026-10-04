@@ -421,3 +421,8 @@ imported from C/C++ firmware, and JS code simply orchestrates things. That leave
 > JavaScript semantics follow ECMA-262, validated by the repository's test262 profile. QuickJS is a comparison reference and performance yardstick. The implementation follows Zig's types, explicit lifetimes, and error handling.
 >
 > The canonical project is [aneryu/zjs](https://github.com/aneryu/zjs). It requires Zig 0.16.0 and is MIT licensed, with retained [QuickJS attribution](https://github.com/aneryu/zjs/blob/main/LICENSE).
+- [ViperJS](https://github.com/MerlijnW70/viperjs)
+>
+> It runs 86% of test262 — classes, generators, async/await, ES modules, Proxy, BigInt, TypedArrays, and its own regular-expression engine. No unsafe, no crates, and no input makes it panic.
+>
+> Why it exists. Embedding a scripting language should not mean embedding a C++ codebase, a build system and someone else's unsafe. The constraint — no dependencies, no unsafe, no panics — is the product; everything else follows from it, including writing the regular-expression engine by hand. [GOAL.md](https://github.com/MerlijnW70/viperjs/blob/master/GOAL.md) is the binding version of that argument.
