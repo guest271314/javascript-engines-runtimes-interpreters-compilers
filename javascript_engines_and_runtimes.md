@@ -414,3 +414,10 @@ imported from C/C++ firmware, and JS code simply orchestrates things. That leave
 > Static builds include a small native runtime, but no Node or JavaScript engine. Code that cannot compile statically is reported as a diagnostic. For npm packages and `any`-typed code, `--dynamic` embeds [quickjs-ng](https://github.com/quickjs-ng/quickjs) explicitly.
 >
 > scriptc is experimental and targets macOS, Linux, Windows, and WebAssembly via WASI Preview 1.
+- [zjs](https://github.com/aneryu/zjs)
+>
+> zjs is an embeddable JavaScript / TypeScript engine written in Zig. It provides a Zig-native embedding API and a standalone CLI for trusted code. TypeScript sources run directly through native parsing, type erasure, and supported syntax lowering; zjs does not perform type checking.
+>
+> JavaScript semantics follow ECMA-262, validated by the repository's test262 profile. QuickJS is a comparison reference and performance yardstick. The implementation follows Zig's types, explicit lifetimes, and error handling.
+>
+> The canonical project is [aneryu/zjs](https://github.com/aneryu/zjs). It requires Zig 0.16.0 and is MIT licensed, with retained [QuickJS attribution](https://github.com/aneryu/zjs/blob/main/LICENSE).
