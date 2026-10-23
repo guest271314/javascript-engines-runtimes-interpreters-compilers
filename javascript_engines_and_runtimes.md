@@ -426,3 +426,6 @@ imported from C/C++ firmware, and JS code simply orchestrates things. That leave
 > It runs 86% of test262 — classes, generators, async/await, ES modules, Proxy, BigInt, TypedArrays, and its own regular-expression engine. No unsafe, no crates, and no input makes it panic.
 >
 > Why it exists. Embedding a scripting language should not mean embedding a C++ codebase, a build system and someone else's unsafe. The constraint — no dependencies, no unsafe, no panics — is the product; everything else follows from it, including writing the regular-expression engine by hand. [GOAL.md](https://github.com/MerlijnW70/viperjs/blob/master/GOAL.md) is the binding version of that argument.
+- [jz](https://github.com/dy/jz)
+>
+> JZ (javascript zero) compiles JavaScript to fast, minimal WASM.
