@@ -429,3 +429,12 @@ imported from C/C++ firmware, and JS code simply orchestrates things. That leave
 - [jz](https://github.com/dy/jz)
 >
 > JZ (javascript zero) compiles JavaScript to fast, minimal WASM.
+- [quickjs-wasi](https://github.com/vercel-labs/quickjs-wasi)
+>
+> A snapshotable JavaScript runtime via WebAssembly. Runs [QuickJS](https://github.com/quickjs-ng/quickjs) compiled to WASM, with the ability to snapshot the entire VM state (including pending promises) and restore it in a fresh WASM instance.
+- [dquickts](https://github.com/stencil-hq/dquickts)
+>
+> A fork of [QuickJS](https://bellard.org/quickjs/), Fabrice Bellard's small embeddable JavaScript engine, that adds two things:
+>
+> - Durable execution. You can pause a running program, even in the middle of a for loop, serialize its whole heap to bytes, and resume it later in a different process.
+> - Native TypeScript. .ts files run directly. The parser erases the types as it reads them, so there is no transpile step.
